@@ -106,7 +106,7 @@ export default function RemoveRangeInfo(props: propsIF) {
             <DividerDark />
 
             <div className={styles.ambi_info_text}>
-                Ambient position rewards are compounded back into the original
+                Perseusposition rewards are compounded back into the original
                 position and are included in the amounts above.
             </div>
         </div>

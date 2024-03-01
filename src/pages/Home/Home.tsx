@@ -83,7 +83,7 @@ export default function Home() {
                     <Hero />
                 </div>
             )}
-            {APP_ENVIRONMENT !== 'production' && (
+            {/* {APP_ENVIRONMENT !== 'production' && (
                 <PointSystemContainer>
                     <Text fontSize='header1'>Points system now live!</Text>
 
@@ -101,12 +101,12 @@ export default function Home() {
                         </Text>
                     </Link>
                 </PointSystemContainer>
-            )}
+            )} */}
             <div>
-                <TopPools />
+                {/* <TopPools /> */}
                 <Stats />
             </div>
-            <LandingSections />
+            {/* <LandingSections /> */}
         </section>
     );
 }

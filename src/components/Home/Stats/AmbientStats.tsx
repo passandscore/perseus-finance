@@ -247,11 +247,11 @@ export default function Stats() {
         ? 'Testnet Stats'
         : !supportedNetworks.includes('0x1') &&
           supportedNetworks.includes('0x82750')
-        ? 'Ambient x Scroll Stats'
+        ? 'Perseusx Scroll Stats'
         : !supportedNetworks.includes('0x1') &&
           supportedNetworks.includes('0x13e31')
-        ? 'Ambient x Blast Stats'
-        : 'Ambient Finance Stats';
+        ? 'Perseusx Blast Stats'
+        : 'Perseus Finance Stats';
 
     const mobileWrapper = (
         <Fade up>

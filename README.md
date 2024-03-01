@@ -1,7 +1,7 @@
 <a id='top'></a>
 
 # Introduction
-Welcome to the Ambient Finance platform! Please [click here](https://ambient.finance/) to launch the web app.
+Welcome to the PerseusFinance platform! Please [click here](https://ambient.finance/) to launch the web app.
 
 # Table of Contents
 
@@ -14,7 +14,7 @@ Welcome to the Ambient Finance platform! Please [click here](https://ambient.fin
 
 ### Dev Mode
 
-Clone the repo and use `yarn start` to run the Ambient UI in development mode.
+Clone the repo and use `yarn start` to run the PerseusUI in development mode.
 
 Open [http://localhost:3000](http://localhost:3000) to view it in a browser.
 
@@ -91,8 +91,8 @@ Code changes are viewable on GitHub [Link](https://github.com/CrocSwap/ambient-t
 
 ### Social Media
 
-* [Twitter](https://twitter.com/ambient_finance "Ambient Finance on Twitter")
-* [Discord](https://discord.com/invite/ambient-finance "Ambient Finance on Discord")
+* [Twitter](https://twitter.com/ambient_finance "PerseusFinance on Twitter")
+* [Discord](https://discord.com/invite/ambient-finance "PerseusFinance on Discord")
 * [Medium](https://crocswap.medium.com/ "Crocodile Labs on Medium")
 * [Corporate Site](https://www.crocswap.com/ "About Crocodile Labs")
 

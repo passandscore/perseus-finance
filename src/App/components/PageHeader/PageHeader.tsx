@@ -10,6 +10,7 @@ import { AnimateSharedLayout } from 'framer-motion';
 import Account from './Account/Account';
 import NetworkSelector from './NetworkSelector/NetworkSelector';
 import logo from '../../../assets/images/logos/logo_mark.svg';
+import logoText from '../../../assets/images/logos/logo_text.png';
 import mainLogo from '../../../assets/images/logos/large.svg';
 import NotificationCenter from '../../../components/Global/NotificationCenter/NotificationCenter';
 // import { BiGitBranch } from 'react-icons/bi';
@@ -197,7 +198,7 @@ const PageHeader = function () {
             document.title = '404 ~ Ambient';
         } else {
             document.title =
-                'Ambient | Zero-to-One Decentralized Trading Protocol';
+                'Perseus| Zero-to-One Decentralized Trading Protocol';
         }
     }, [baseSymbol, quoteSymbol, isDenomBase, location, truncatedPoolPrice]);
 
@@ -237,26 +238,26 @@ const PageHeader = function () {
             destination: linkGenSwap.getFullURL(swapParams),
             shouldDisplay: true,
         },
-        {
-            title: 'Trade',
-            destination: linkGenMarket.getFullURL(swapParams),
-            shouldDisplay: true,
-        },
+        // {
+        //     title: 'Trade',
+        //     destination: linkGenMarket.getFullURL(swapParams),
+        //     shouldDisplay: true,
+        // },
         {
             title: 'Pool',
             destination: linkGenPool.getFullURL(swapParams),
             shouldDisplay: true,
         },
-        {
-            title: 'Explore',
-            destination: '/explore',
-            shouldDisplay: true,
-        },
-        {
-            title: 'Account',
-            destination: '/account',
-            shouldDisplay: !!isUserConnected,
-        },
+        // {
+        //     title: 'Explore',
+        //     destination: '/explore',
+        //     shouldDisplay: true,
+        // },
+        // {
+        //     title: 'Account',
+        //     destination: '/account',
+        //     shouldDisplay: !!isUserConnected,
+        // },
     ];
 
     // Most of this functionality can be achieved by using the NavLink instead of Link and accessing the isActive prop on the
@@ -351,11 +352,20 @@ const PageHeader = function () {
         >
             <div>
                 <LogoContainer to='/' aria-label='Home'>
-                    {desktopScreen ? (
-                        <img src={mainLogo} alt='ambient' />
-                    ) : (
+                    {/* {desktopScreen ? ( */}
+                    <img
+                        src={logoText}
+                        alt='ambient'
+                        style={{
+                            width: '224px',
+                            height: '43px',
+                            marginTop: '10px',
+                            marginLeft: '10px',
+                        }}
+                    />
+                    {/* ) : (
                         <LogoText src={logo} alt='ambient' />
-                    )}
+                    )} */}
                 </LogoContainer>
             </div>
             {routeDisplay}

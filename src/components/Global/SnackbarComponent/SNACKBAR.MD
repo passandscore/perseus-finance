@@ -1,6 +1,6 @@
 # Introduction
 
-This directory contains code to create snackbars in the Ambient app and data to fill out the snackbar skeleton.
+This directory contains code to create snackbars in the Perseusapp and data to fill out the snackbar skeleton.
 
 The snackbar component makes use of two components from MaterialUi. `Snackbar` and `Alert`. The `Alert` component is responsible for rendering a different variant message based on success rate and the `Snackbar` component is responsible for displaying the snackbar itself.
 

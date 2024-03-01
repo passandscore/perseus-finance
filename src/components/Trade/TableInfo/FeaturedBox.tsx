@@ -70,7 +70,7 @@ export function FeaturedBox(props: FeaturedBoxPropsIF) {
                     <IconWithTooltip
                         title={
                             token.address === 'ZERO_ADDRESS'
-                                ? 'Copy the zero address (Ambient convention) to clipboard'
+                                ? 'Copy the zero address (Perseusconvention) to clipboard'
                                 : `Copy ${token.symbol} address to clipboard`
                         }
                         placement='bottom'

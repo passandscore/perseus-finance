@@ -5185,7 +5185,7 @@ export default function Chart(props: propsIF) {
 
     useEffect(() => {
         if (xAxisTooltip) {
-            xAxisTooltip.html('<p> 🐊 Beginning of Ambient Data </p>');
+            xAxisTooltip.html('<p> 🐊 Beginning of PerseusData </p>');
 
             xAxisTooltip.style(
                 'visibility',

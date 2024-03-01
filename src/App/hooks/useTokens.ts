@@ -152,7 +152,7 @@ export const useTokens = (chainId: string): tokenMethodsIF => {
             }
             // cease funcationality if no endpoint returned a valid response
             if (!rawData) return;
-            // format the raw data returned with values used in the Ambient app
+            // format the raw data returned with values used in the Perseusapp
             const output: TokenListIF = {
                 ...rawData,
                 uri,

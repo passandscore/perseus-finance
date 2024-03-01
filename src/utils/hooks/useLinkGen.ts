@@ -48,7 +48,7 @@ type anyParamsIF =
     | initParamsIF
     | repoParamsIF;
 
-// index of all base URL pathways in the Ambient app
+// index of all base URL pathways in the Perseusapp
 const BASE_URL_PATHS = {
     index: '',
     home: '',

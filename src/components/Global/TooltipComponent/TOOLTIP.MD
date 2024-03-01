@@ -1,6 +1,6 @@
 # Introduction
 
-This directory contains code to create tooltips in the Ambient app and data to fill out the tooltip skeleton.
+This directory contains code to create tooltips in the Perseusapp and data to fill out the tooltip skeleton.
 
 The tooltip component makes use of a component from MaterialUi. `Tooltip`.
 To read more on the component, see the official docs: 

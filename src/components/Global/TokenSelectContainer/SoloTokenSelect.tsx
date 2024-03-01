@@ -245,7 +245,7 @@ export const SoloTokenSelect = (props: propsIF) => {
     // arbitrary limit on number of tokens to display in DOM for performance
     const MAX_TOKEN_COUNT = 300;
 
-    const WETH_WARNING = ' Ambient uses Native Ether (ETH) to lower gas costs.';
+    const WETH_WARNING = ' Perseususes Native Ether (ETH) to lower gas costs.';
 
     // const isInit = location.pathname.startsWith('/initpool');
 

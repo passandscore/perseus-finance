@@ -73,7 +73,7 @@ export default function MobileLandingSections() {
                         <img src={blastLogo} alt='' width='100px' />
                     </FlexContainer>
                 </MobileMainLogo>
-                {APP_ENVIRONMENT !== 'production' && (
+                {/* {APP_ENVIRONMENT !== 'production' && (
                     <FlexContainer
                         justifyContent='center'
                         alignItems='center'
@@ -92,7 +92,7 @@ export default function MobileLandingSections() {
                             </Text>
                         </Link>
                     </FlexContainer>
-                )}
+                )} */}
                 <div style={{ padding: '20px' }}>
                     <TopPools noTitle gap='8px' />
                 </div>
@@ -130,7 +130,7 @@ export default function MobileLandingSections() {
                     Faster, Easier, and Cheaper
                 </Text>
                 <Text color='text2' fontWeight='100' tabIndex={0}>
-                    Ambient runs the entire DEX inside a single smart contract,
+                    Perseusruns the entire DEX inside a single smart contract,
                     allowing for low-fee transactions, greater liquidity
                     rewards, and a fairer trading experience.
                 </Text>
@@ -159,7 +159,7 @@ export default function MobileLandingSections() {
                     Deep, Diversified Liquidity
                 </Text>
                 <Text color='text2' fontWeight='100' tabIndex={0}>
-                    Ambient is built for diversified, sustainable liquidity that
+                    Perseusis built for diversified, sustainable liquidity that
                     fixes the broken LP economics of AMMs. It is also the only
                     DEX to support concentrated (‘V3’), ambient (‘V2’) and
                     knock-out liquidity in the same liquidity pool.
@@ -194,7 +194,7 @@ export default function MobileLandingSections() {
                     using our range and limit orders.
                 </Text>
                 <Text tabIndex={0} color='text2' fontWeight='100'>
-                    Ambient combines liquidity in a single pool, allowing for
+                    Perseuscombines liquidity in a single pool, allowing for
                     greater rewards for liquidity providers, and less impact for
                     traders.
                 </Text>

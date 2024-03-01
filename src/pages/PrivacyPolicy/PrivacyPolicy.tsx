@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
                     Last Updated: May 24, 2023
                     <p>
                         This Privacy Policy describes how Crocodile Labs Inc.
-                        d/b/a Ambient (&quot;
+                        d/b/a Perseus(&quot;
                         <span style={{ fontWeight: 'bold' }}>Ambient</span>
                         ,&quot; &quot;
                         <span style={{ fontWeight: 'bold' }}>we</span>&quot;, “
@@ -391,7 +391,7 @@ export default function PrivacyPolicy() {
                         personal information with prospective counterparties and
                         their advisers. We may also disclose your personal
                         information to an acquirer, successor, or assignee of
-                        Ambient as part of any merger, acquisition, sale of
+                        Perseusas part of any merger, acquisition, sale of
                         assets, or similar transaction, and/or in the event of
                         an insolvency, bankruptcy, or receivership in which
                         personal information is transferred to one or more third

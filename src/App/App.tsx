@@ -170,11 +170,11 @@ export default function App() {
                 data-theme={selectedTheme}
             >
                 {!isWalletChainSupported && <SwitchNetwork />}
-                {showPointSystemPopup && (
+                {/* {showPointSystemPopup && (
                     <PointSystemPopup
                         dismissPointSystemPopup={dismissPointSystemPopup}
                     />
-                )}
+                )} */}
                 <AppOverlay />
                 <PageHeader />
                 <div
@@ -332,7 +332,7 @@ export default function App() {
                     </Routes>
                 </section>
             </FlexContainer>
-            <div className='footer_container'>
+            {/* <div className='footer_container'>
                 {currentLocation !== '/' &&
                     currentLocation !== '/404' &&
                     currentLocation !== '/terms' &&
@@ -342,7 +342,7 @@ export default function App() {
                 {showMobileVersion && currentLocation !== '/' && (
                     <SidebarFooter />
                 )}
-            </div>
+            </div> */}
             <GlobalPopup />
             <SnackbarComponent />
             {isWagmiModalOpen && <WalletModalWagmi />}

@@ -40,7 +40,7 @@ export default function Hero() {
                             className={styles.ambient_blast_logo}
                             style={{ fontSize: '90px' }}
                         >
-                            ambient
+                            perseus
                         </p>
                         <Text
                             fontWeight='100'

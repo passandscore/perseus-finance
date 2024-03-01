@@ -25,7 +25,7 @@ export default function GateWallet(props: PropsIF) {
                     >
                         open source web application
                     </a>{' '}
-                    to access the blockchain-based Ambient protocol.
+                    to access the blockchain-based Perseusprotocol.
                 </p>
                 <p>
                     By clicking Agree, you accept the{' '}

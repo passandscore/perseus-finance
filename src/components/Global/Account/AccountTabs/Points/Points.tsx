@@ -29,7 +29,7 @@ export default function Points(props: propsIF) {
             <div>
                 <PointsRow
                     shortName={'AMBI'}
-                    longName={'Ambient Points'}
+                    longName={'PerseusPoints'}
                     pointsAccrued={ambiGlobalPoints.toLocaleString()}
                     logo={ambiLogo}
                 />

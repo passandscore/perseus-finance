@@ -44,7 +44,7 @@ export default async (request: Request, context: Context) => {
     <!DOCTYPE html>
     <html lang="en">
       <body>
-        Sorry, Ambient is not currently available in ${context.geo.country.name}
+        Sorry, Perseusis not currently available in ${context.geo.country.name}
       </body>
     </html>
   `;

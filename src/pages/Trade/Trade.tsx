@@ -275,11 +275,11 @@ function Trade() {
                     style={{ height: 'calc(100vh - 56px)' }}
                     ref={canvasRef}
                 >
-                    {showTopPtsBanner && (
+                    {/* {showTopPtsBanner && (
                         <div style={{ padding: '0 8px' }}>
                             <PointsBanner dismissElem={dismissTopBannerPopup} />
                         </div>
-                    )}
+                    )} */}
 
                     <TradeChartsHeader tradePage />
                     {/* This div acts as a parent to maintain a min/max for the resizable element below */}

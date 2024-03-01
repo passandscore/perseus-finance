@@ -55,7 +55,7 @@ export default function LandingSections() {
                         fontSize='header2'
                         tabIndex={0}
                     >
-                        Ambient runs the entire DEX inside a single smart
+                        Perseusruns the entire DEX inside a single smart
                         contract, allowing for low-fee transactions, greater
                         liquidity rewards, and a fairer trading experience.
                     </Text>
@@ -95,7 +95,7 @@ export default function LandingSections() {
                         fontSize='header2'
                         tabIndex={0}
                     >
-                        Ambient is built for diversified, sustainable liquidity
+                        Perseusis built for diversified, sustainable liquidity
                         that fixes the broken LP economics of AMMs. It is also
                         the only DEX to support concentrated (‘V3’), ambient
                         (‘V2’) and knock-out liquidity in the same liquidity
@@ -139,9 +139,9 @@ export default function LandingSections() {
                         fontSize='header2'
                         tabIndex={0}
                     >
-                        Ambient combines liquidity in a single pool, allowing
-                        for greater rewards for liquidity providers, and less
-                        impact for traders.
+                        Perseuscombines liquidity in a single pool, allowing for
+                        greater rewards for liquidity providers, and less impact
+                        for traders.
                     </Text>
                 </FasterSection>
                 <img
@@ -180,7 +180,7 @@ export default function LandingSections() {
                         tabIndex={0}
                     >
                         Built for traders and market makers of all kinds,
-                        Ambient introduces novel DeFi-native features and an
+                        Perseusintroduces novel DeFi-native features and an
                         array of quality-of-life improvements allowing for a
                         best-in-class user experience.
                     </Text>

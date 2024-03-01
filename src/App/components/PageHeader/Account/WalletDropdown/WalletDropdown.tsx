@@ -265,8 +265,8 @@ export default function WalletDropdown(props: WalletDropdownPropsIF) {
                     />
                 ))}
             </WalletContent>
-            <ActionsContainer numCols={2} gap={16} fullWidth={true}>
-                <AccountLink
+            <ActionsContainer numCols={1} gap={16} fullWidth={true}>
+                {/* <AccountLink
                     to={'/account'}
                     aria-label='Go to the account page '
                     tabIndex={0}
@@ -274,7 +274,7 @@ export default function WalletDropdown(props: WalletDropdownPropsIF) {
                 >
                     <CgProfile />
                     My Account
-                </AccountLink>
+                </AccountLink> */}
                 <LogoutButton onClick={clickLogout} />
             </ActionsContainer>
         </WalletWrapper>

@@ -95,7 +95,7 @@ describe('testing calculateSecondaryDepositQty', () => {
             153.8152498303889,
         ],
         [
-            'Balanced 10 WBTC-ETH Mint at Ambient Width',
+            'Balanced 10 WBTC-ETH Mint at PerseusWidth',
             ETH_WBTC_POOL_PRICE,
             WBTC_DECIMALS,
             ETH_DECIMALS,

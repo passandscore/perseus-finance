@@ -310,7 +310,7 @@ export default function ExchangeBalance(props: propsIF) {
                 </PortfolioMotionSubContainer>
                 {(!fullLayoutActive || columnView || isModalView) && (
                     <PortfolioInfoText>
-                        Collateral deposited into the Ambient Finance exchange
+                        Collateral deposited into the PerseusFinance exchange
                         can be traded at lower gas costs and withdrawn at any
                         time.
                     </PortfolioInfoText>

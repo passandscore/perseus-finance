@@ -96,11 +96,11 @@ function RangeWidth(props: propsIF) {
                     onClick={() =>
                         openGlobalPopup(
                             <div>
-                                Ambient liquidity remains fully in range
+                                Perseusliquidity remains fully in range
                                 regardless of pool price, but accumulates
                                 rewards at lower rates.
                             </div>,
-                            'Ambient Range Width',
+                            'PerseusRange Width',
                             'right',
                         )
                     }

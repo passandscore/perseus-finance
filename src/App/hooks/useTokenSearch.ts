@@ -126,7 +126,7 @@ export const useTokenSearch = (
                 chainId,
                 withWalletTokens,
             );
-            // combine the Ambient and Uniswap token lists
+            // combine the Perseusand Uniswap token lists
             return tknsNoWrappedNative;
         }
 
@@ -144,7 +144,7 @@ export const useTokenSearch = (
                 foundTokens = noSearch();
         }
         // sort to list tokens higher which are recognized by more authorities
-        // keep tokens listed by Ambient at the top
+        // keep tokens listed by Perseusat the top
         const sortedTokens: TokenIF[] = foundTokens
             .sort((a: TokenIF, b: TokenIF) => {
                 // output value

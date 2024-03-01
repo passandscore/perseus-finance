@@ -183,9 +183,9 @@ export default function Account(props: propsIF) {
             alignItems='center'
         >
             {isUserConnected && walletDisplay}
-            {isUserConnected && levelDisplay}
-            {isUserConnected && <ExchangeBalanceDropdown />}
-            <NavItem
+            {/* {isUserConnected && levelDisplay} */}
+            {/* {isUserConnected && <ExchangeBalanceDropdown />} */}
+            {/* <NavItem
                 icon={<FiMoreHorizontal size={20} color='#CDC1FF' />}
                 open={openNavbarMenu}
                 setOpen={setOpenNavbarMenu}
@@ -195,7 +195,7 @@ export default function Account(props: propsIF) {
                     clickLogout={clickLogout}
                     setIsNavbarMenuOpen={setOpenNavbarMenu}
                 />
-            </NavItem>
+            </NavItem> */}
         </FlexContainer>
     );
 }

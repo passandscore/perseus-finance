@@ -1,6 +1,6 @@
 # Introduction
 
-This directory houses all component-level React functional components for the Ambient UI.
+This directory houses all component-level React functional components for the PerseusUI.
 
 # About
 

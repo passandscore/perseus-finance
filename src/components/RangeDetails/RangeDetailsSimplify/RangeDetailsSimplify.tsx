@@ -190,7 +190,7 @@ function RangeDetailsSimplify(props: RangeDetailsSimplifyPropsIF) {
         {
             title: 'Position Type ',
             content: isAmbient ? 'Ambient' : 'Range',
-            explanation: 'e.g. Range, Ambient ',
+            explanation: 'e.g. Range, Perseus',
         },
         {
             title: 'Submit Time ',
@@ -213,7 +213,7 @@ function RangeDetailsSimplify(props: RangeDetailsSimplifyPropsIF) {
         {
             title: 'Status ',
             content: status,
-            explanation: 'e.g. Ambient / In Range / Out of Range',
+            explanation: 'e.g. Perseus/ In Range / Out of Range',
         },
 
         {
