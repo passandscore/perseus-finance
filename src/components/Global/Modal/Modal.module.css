@@ -1,0 +1,98 @@
+.outside_modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 99999;
+
+    background: rgba(1, 0, 16, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+
+.modal_body {
+   
+    border: solid 1px transparent;
+    background-image: linear-gradient(
+            rgba(189, 27, 27, 0),
+            rgba(255, 255, 255, 0)
+        ),
+        linear-gradient(101deg, var(--accent1), var(--accent1), var(--accent1));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px var(--dark1) inset;
+    transition: box-shadow var(--animation-speed) ease-in-out;
+
+    height: fit-content;
+    min-height: 200px;
+    min-width: 300px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    position: relative;
+    /* max-height: 80vh; */
+    color: var(--text1);
+
+    /* min-height: 80vh; */
+}
+
+.box_shadow{
+    box-shadow: var(--gradient-box-shadow);
+}
+
+.no_background_modal {
+    background: transparent;
+}
+
+.modal_header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: var(--text1);
+    padding: 1rem;
+}
+
+.modal_header h2 {
+    font-size: var(--header1-size);
+    line-height: var(--header1-lh);
+    font-weight: 300;
+    color: var(--text1);
+    padding-left: 27px;
+}
+
+.modal_content {
+    /* padding: 20px; */
+   
+    border-radius: var(--border-radius);
+   
+   
+    
+
+    /* min-height: 250px; */
+}
+
+.modal_header svg:hover {
+    color: var(--text1);
+}
+
+.close_button {
+    cursor: pointer !important;
+}
+
+@media only screen and (min-width: 500px) {
+    .modal_body {
+        min-width: 400px;
+       
+    }
+}

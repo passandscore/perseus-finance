@@ -1,0 +1,32 @@
+.range_column {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.range_sing {
+    white-space: nowrap;
+    display: none;
+}
+
+.range_column p,
+.range_sing p {
+    font-size: var(--mini-size);
+    line-height: var(--mini-lh);
+    color: var(--accent3);
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .range_column {
+        display: none;
+    }
+    .range_column p {
+        font-size: var(--body-size);
+        line-height: var(--body-lh);
+    }
+
+    .range_sing {
+        display: flex;
+    }
+}

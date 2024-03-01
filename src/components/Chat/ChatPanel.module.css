@@ -1,0 +1,139 @@
+.main_container {
+    width: 380px;
+    padding: 0 1rem;
+
+    display: none;
+}
+
+.modal_body {
+    flex-direction: column-reverse;
+    border: solid 1px transparent;
+    background: var(--dark2);
+    cursor: default;
+
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    color: white;
+    position: sticky;
+    aspect-ratio: 5/6;
+    transition: var(--transition);
+    overflow: auto;
+    box-shadow: 0px 0px 12px rgba(205, 193, 255, 0.2);
+    border-top: 0.5px solid var(--accent1);
+    border-left: 0.5px solid var(--accent1);
+    border-right: 0.5px solid var(--accent1);
+}
+
+.chat_body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 100%;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    overflow: hidden;
+    order: 0;
+    align-self: stretch;
+}
+
+.chat_header {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 0px 4px 10px;
+    letter-spacing: 1px;
+    color: white;
+    background: var(--dark2);
+    cursor: pointer;
+}
+
+.chat_header section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.chat_header h2 {
+    font-size: var(--header2-size);
+    line-height: var(--body-lh);
+    font-weight: 100;
+    font-family: var(--font-logo);
+    color: var(--text1);
+}
+
+.chat_header svg {
+    color: var(--text2);
+}
+
+.chat_notification {
+    display: flex;
+    position: relative;
+    justify-content: right;
+    width: 95%;
+    height: 1%;
+    cursor: default;
+}
+
+.text {
+    display: block;
+    margin-top: -32px;
+    margin-left: 9px;
+}
+
+.scrollable_div {
+    overflow-y: auto;
+    overflow-x: hidden;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex: 1 9999 auto;
+    width: 100%;
+    height: 80%;
+    max-height: unset;
+    order: 0;
+    align-self: stretch;
+    cursor: default;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 10px;
+    height: 5px;
+
+    /* dark/primary */
+    background-image: var(--primary-gradient);
+    border-radius: 8px;
+    transform: rotate(-90deg);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+@media only screen and (min-width: 1280px) {
+    .main_container {
+        display: flex;
+    }
+}

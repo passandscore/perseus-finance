@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    background: var(--dark2);
+
+    border-radius: 5px;
+    padding: 0.4rem 8px;
+    display: grid;
+    grid-template-columns: 40px auto;
+}
+
+.container:focus-visible,
+.row button:focus-visible,
+.row a:focus-visible,
+.info button:focus-visible,
+.row svg:focus-visible {
+    outline: 1px solid white;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 4px;
+}
+.status {
+    display: flex;
+    margin: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info div {
+    color: var(--text1);
+}
+
+.info p {
+    font-size: var(--body-size);
+    line-height: var(--body-lh);
+    color: var(--text2);
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row p {
+    color: var(--text2);
+}

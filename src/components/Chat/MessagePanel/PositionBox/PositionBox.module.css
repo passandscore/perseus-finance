@@ -1,0 +1,212 @@
+.position_main_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    grid-gap: 10px;
+    gap: 1px;
+    height: auto;
+    background-image: var(--primary-gradient);
+    border-radius: var(--border-radius);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.position_main_box_without_avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    grid-gap: 10px;
+    gap: 1px;
+    height: auto;
+    background-image: linear-gradient(
+        to right top,
+        #7371fc,
+        #887ffd,
+        #9a8efe,
+        #ab9dfe,
+        #baacff,
+        #baacff,
+        #baacff,
+        #baacff,
+        #ab9dfe,
+        #9a8efe,
+        #887ffd,
+        #7371fc
+    );
+    border-radius: var(--border-radius);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 25px;
+}
+
+.position_box {
+    background: var(--dark3);
+    width: 99%;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+.copied_value {
+    word-wrap: break-word;
+}
+
+.position_message {
+    width: 80%;
+    height: 80%;
+    bottom: -100%;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(1vw - 5px);
+    line-height: var(--body-lh);
+    flex-grow: 5px !important;
+    width: 85%;
+    color: var(--text1);
+    white-space: pre-line;
+    align-self: stretch;
+    word-break: break-word;
+}
+
+.tokens_name {
+    font-family: 'Lexend Exa';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 11px;
+    line-height: var(--mini-lh);
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    flex-grow: 4;
+    color: rgba(235, 235, 255, 0.87);
+}
+
+.tokens_type {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--mini-size);
+    line-height: var(--mini-lh);
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    flex-grow: 4;
+    color: rgba(235, 235, 255, 0.6);
+}
+
+.tokens_apy {
+    flex-grow: 4;
+    font-weight: lighter;
+    background: var(--apr-gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    /* glow/positive */
+    text-shadow: 0px 0px 10px rgba(21, 190, 111, 0.75);
+    font-size: 13px;
+    align-items: center;
+    text-align: right;
+}
+
+.tokens_min_price {
+    flex-grow: 4;
+    font-weight: lighter;
+    color: var(--accent5);
+    font-size: 13px;
+    align-items: center;
+    text-align: right;
+}
+
+.tokens_max_price {
+    flex-grow: 4;
+    font-weight: lighter;
+    color: var(--accent1);
+    font-size: 13px;
+    align-items: center;
+    text-align: right;
+}
+
+.address {
+    color: rgba(235, 235, 255, 0.6);
+    font-size: 11px;
+    line-height: 22px;
+    font-family: 'Roboto Mono';
+    flex-grow: 2;
+}
+
+.address_box {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    text-align: -webkit-right;
+}
+
+.position_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    padding: 0%;
+}
+
+.buy_price {
+    flex-grow: 4;
+    font-weight: lighter;
+    text-align: -webkit-right;
+    color: var(--accent1);
+    font-size: 14px;
+}
+
+.sell_price {
+    flex-grow: 4;
+    font-weight: lighter;
+    text-align: -webkit-right;
+    color: var(--accent2);
+    font-size: 14px;
+}
+
+.range_price {
+    flex-grow: 2;
+    font-weight: lighter;
+}
+
+.range {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--header2-size);
+    line-height: 22px;
+
+    /* identical to box height */
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    /* accent/primary */
+    color: var(--accent1);
+}
+
+.change_positive {
+    flex-grow: 4;
+    font-size: var(--header2-size);
+    color: var(--positive);
+}
+
+.change_negative {
+    flex-grow: 4;
+    font-size: var(--header2-size);
+    color: var(--negative);
+}
+
+.animate_position_box {
+    width: 100%;
+}

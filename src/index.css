@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500&display=swap');
+
+/* For simple theme change(special occasion), change portfolio and swap background. No need for a different color scheme*/
+:root {
+    --font-logo: 'Lexend Exa', sans-serif;
+    --font-family: 'Lexend Deca', sans-serif;
+    --roboto: 'Roboto Mono', monospace;
+    --mono: monospace, 'Lexend Deca' sans-serif;
+
+    /* font */
+    --title-ts: 0px 0px 150px rgba(70, 183, 219, 0.5),
+        0px 0px 100px rgba(70, 183, 219, 0.5),
+        0px 0px 30px rgba(70, 183, 219, 0.5),
+        0px 0px 20px rgba(70, 183, 219, 0.5),
+        0px 0px 10px rgba(70, 183, 219, 0.5),
+        0px 0px 3px rgba(70, 183, 219, 0.5);
+
+    --header1-size: 24px;
+    --header1-lh: 25px;
+
+    --header2-size: 18px;
+    --header2-lh: 22px;
+
+    --header-size: 16px;
+    --body-size: 12px;
+    --body-lh: 15px;
+
+    --mini-size: 10px;
+    --mini-lh: 12px;
+
+    /* colors */
+    --blur-bg: rgba(14, 19, 26, 0.5);
+
+    --text1: #f0f0f8;
+    --text2: #8b98a5;
+    --text3: #61646f;
+
+    --dark1: #0d1117;
+    --dark2: #171d27;
+    --dark3: #242f3f;
+    --dark4: #141922;
+
+    --accent1: #7371fc;
+    --accent2: #e480ff;
+    --accent3: #5ffff2;
+    --accent4: #71b5fc;
+    --accent5: #cdc1ff;
+
+    --positive: #15be6f;
+    --negative: #f6385b;
+
+    --other-green: #41d18e;
+    --other-red: #e75670;
+
+    /* border */
+    --color-border: 1px solid var(--accent1);
+    --border: var(--dark2);
+    --border-radius: 4px;
+    --swap-border: var(--title-gradient);
+    --grey-light-border: 1px solid var(--text2);
+    --navbar-border: transparent;
+    --dark-border: 0.2px solid #010101;
+
+    /* transitions */
+    --transition: all var(--animation-speed) ease-in-out;
+
+    /* animations */
+    --animation-speed: 300ms;
+
+    /* sizes */
+    --footer-height: 24px;
+
+    /* gradients, shadows */
+    --shimmer: linear-gradient(to right, #141e30, #243b55);
+    --gradient-box-shadow: 0px 0px 20px 0px rgba(115, 113, 252, 0.25) inset;
+
+    --title-gradient: linear-gradient(
+        90deg,
+        var(--accent1) 0%,
+        var(--accent5) 49.48%,
+        var(--accent1) 100%
+    );
+    --primary-gradient: linear-gradient(
+        to right top,
+        #7371fc,
+        #887ffd,
+        #9a8efe,
+        #ab9dfe,
+        #baacff,
+        #baacff,
+        #baacff,
+        #baacff,
+        #ab9dfe,
+        #9a8efe,
+        #887ffd,
+        #7371fc
+    );
+    --chart-gradient: linear-gradient(to right, #0f1623, #152332);
+    --dark-gradient: linear-gradient(
+        90deg,
+        #1c1c41 0%,
+        #645e7e 49.48%,
+        #19193b 100%
+    );
+    --highlight-gradient: linear-gradient(
+        270deg,
+        #5a58c7,
+        #b2a8dd,
+        #4947a1,
+        rgba(34, 34, 34, 0),
+        rgba(34, 34, 34, 0)
+    );
+    --red-gradient: linear-gradient(
+        90deg,
+        #be4515 32.38%,
+        #de5a2e 51.39%,
+        #be5315 68.17%
+    );
+    --apr-gradient-primary: linear-gradient(
+        90deg,
+        #15be6f 32.38%,
+        #8fe9bf 51.39%,
+        #15be6f 68.17%
+    );
+    --apr-gradient-secondary: linear-gradient(
+        90deg,
+        #c7d80c 0%,
+        #e0ea74 49.48%,
+        #c7d80c 100%
+    );
+
+    --swap-box-shadow: none;
+    --dark-box-shadow: 1px 1px 1px #000, 0 0 1px #0d0d0d;
+    --dark1-box-shadow: 2px 2px 10px 0px var(--dark1);
+    --trade-box-shadow: 0 0 3px white, 0 0 5px white, 0 0 10px white,
+        0 0 30px #0ba9ca, 0 0 50px #0ba9ca, 0 0 80px #0ba9ca;
+    --glow-box-shadow: 0px 0px 100px rgba(205, 193, 255, 0.3),
+        0px 0px 60px rgba(205, 193, 255, 0.3),
+        0px 0px 20px rgba(205, 193, 255, 0.3),
+        0px 0px 12px rgba(205, 193, 255, 0.3),
+        0px 0px 6px rgba(205, 193, 255, 0.3),
+        0px 0px 3px rgba(205, 193, 255, 0.3);
+    --glow-light-box-shadow: 0px 0px 36px rgba(205, 193, 255, 0.2),
+        0px 0px 21px rgba(205, 193, 255, 0.2),
+        0px 0px 12px rgba(205, 193, 255, 0.2),
+        0px 0px 7px rgba(205, 193, 255, 0.2), 0px 0px 4px var(--accent5),
+        0px 0px 2px rgba(205, 193, 255, 0.2);
+}
+*::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--text2);
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: var(--text2);
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: var(--text2);
+}
+
+[data-theme='light'] {
+    --portfolio-banner: linear-gradient(to right, #f0f2f0, #000c40);
+
+    /* colors */
+    --blur-bg: #ebebed;
+
+    --text1: black;
+    --text2: #19222d;
+    --text3: #0e131a;
+
+    --dark1: #e6eaf2;
+    --dark2: #f6f6f7;
+    --dark3: #eff1f4;
+
+    --shimmer: linear-gradient(to right, #ece9e6, white);
+    --chart-gradient: linear-gradient(to right, #d8d4d1, white);
+    --dark-gradient: linear-gradient(
+        90deg,
+        #9494d1 0%,
+        #645e7e 49.48%,
+        #7d7db1 100%
+    );
+
+    --swap-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+        0 3px 6px rgba(0, 0, 0, 0.23);
+    --swap-border: none;
+    --navbar-border: #cacbcd;
+    --dark-border: 0.2px solid #fefefe;
+    --border: #cacbcd;
+    --select: #acb6c4;
+}

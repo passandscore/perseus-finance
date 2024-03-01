@@ -1,0 +1,12 @@
+.icon svg {
+    color: var(--text2);
+    transition: var(--transition);
+}
+.icon svg:hover {
+    color: white;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}

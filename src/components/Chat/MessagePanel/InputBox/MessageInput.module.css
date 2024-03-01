@@ -1,0 +1,235 @@
+.input_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 8px;
+    gap: 4px;
+    width: 100%;
+
+    /* dark/tertiary */
+    border-radius: var(--border-radius);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+    position: relative;
+    bottom: 0;
+}
+
+.input_box_not_allowed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 8px;
+    gap: 4px;
+    width: 100%;
+
+    /* dark/tertiary */
+    background: var(--dark2);
+    border-radius: var(--border-radius);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+    position: relative;
+    bottom: 0;
+    cursor: not-allowed;
+}
+
+.modal_body {
+    position: fixed;
+    border: solid 1px transparent;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px var(--dark1) inset;
+    transition: box-shadow var(--animation-speed) ease-in-out;
+    min-width: 407px;
+    min-height: 350px;
+    border-radius: var(--border-radius);
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 8px;
+    grid-gap: 4px;
+    gap: 4px;
+    width: 97%;
+    height: 25px;
+    background: var(--dark3);
+    border-radius: var(--border-radius);
+    flex: none;
+    flex-grow: 0;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+.input_not_allowed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 8px;
+    grid-gap: 4px;
+    gap: 4px;
+    width: 97%;
+    height: 25px;
+    background: var(--dark3);
+    border-radius: var(--border-radius);
+    flex: none;
+    flex-grow: 0;
+    position: relative;
+    margin-bottom: 2%;
+    cursor: not-allowed;
+}
+
+.emojiPicker {
+    width: 97%;
+    padding: 0px 8px;
+    height: 304px;
+    text-emphasis-color: white;
+}
+
+.emoji-categories {
+    filter: invert(100%);
+}
+
+.emoji_close_button {
+    position: relative;
+    float: right;
+    left: -10px;
+}
+
+.input_text:focus {
+    outline: none;
+}
+
+.input_text {
+    width: 212px;
+    height: 22px;
+
+    /* small */
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--body-size);
+    line-height: var(--body-lh);
+    display: flex;
+    align-items: center;
+    outline: none;
+
+    /* text/grey dark */
+    border-color: transparent;
+    color: var(--text1);
+    background-color: transparent;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+.send_message_button {
+    margin-bottom: -3px;
+}
+
+.not_LoggedIn_send_message_button {
+    margin-bottom: -3px;
+    cursor: not-allowed;
+}
+
+.not_LoggedIn_svgButton {
+    transition: fill 0.2s ease-in-out;
+    cursor: not-allowed;
+}
+
+.svgButton {
+    transition: fill 0.2s ease-in-out;
+    cursor: pointer;
+    color: var(--text3);
+    margin-right: 2px;
+}
+
+.svgButton:hover {
+    fill: var(--accent1);
+}
+
+.input_text_mention {
+    width: 212px;
+    height: 22px;
+
+    /* small */
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(1vw - 1px);
+    line-height: var(--body-lh);
+    display: flex;
+    align-items: center;
+    outline: none;
+
+    /* text/grey dark */
+    border-color: transparent;
+    color: var(--accent1);
+    background-color: transparent;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.input_text_not_allowed {
+    width: 212px;
+    height: 22px;
+
+    /* small */
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--body-size);
+    line-height: var(--body-lh);
+    display: flex;
+    align-items: center;
+    outline: none;
+
+    /* text/grey dark */
+    border-color: transparent;
+    color: rgba(235, 235, 255, 0.25);
+    background-color: transparent;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    cursor: not-allowed;
+}
+
+.input_text_position {
+    width: 212px;
+    height: 22px;
+
+    /* small */
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--body-size);
+    line-height: var(--body-lh);
+    display: flex;
+    align-items: center;
+    outline: none;
+
+    /* text/grey dark */
+    border-color: transparent;
+    color: var(--accent1);
+    background-color: transparent;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}

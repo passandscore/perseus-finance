@@ -1,0 +1,25 @@
+.divider_container {
+    background: transparent;
+    height: 8px;
+    /* margin: 4px 0; */
+}
+
+.divider {
+    background: var(--border);
+    width: 100%;
+    /* margin: 0.5rem 0; */
+    height: 1px;
+}
+
+.add_margin_top {
+    margin-top: 4px;
+}
+
+.add_margin_bottom {
+    margin-bottom: 4px;
+}
+
+.change_color {
+    background: var(--dark3);
+    height: 1px;
+}

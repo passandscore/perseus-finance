@@ -1,0 +1,265 @@
+.avatar_image {
+    max-width: 25px;
+    max-height: 25px;
+    border-radius: 50%;
+    background: var(--title-gradient);
+    padding: 2px;
+    flex-grow: 1;
+    align-self: end;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.avatar_jazzicons {
+    display: flex;
+}
+
+.avatar_jazzicons canvas {
+    border-radius: 50%;
+    border: 1px solid var(--accent1);
+}
+.nft_container {
+    max-width: 25px;
+    max-height: 25px;
+    border-radius: 50%;
+    background: var(--title-gradient);
+    padding: 2px;
+    flex-grow: 1;
+    align-self: end;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.avatar_image_position {
+    max-width: 13px;
+    max-height: 13px;
+    border-radius: 50%;
+    background: var(--title-gradient);
+    padding: 2px;
+    flex-grow: 1;
+    align-self: end;
+    vertical-align: end;
+    margin: 0;
+}
+
+.message_date {
+    width: 50px;
+    height: 14px;
+
+    /* extra small */
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--mini-size);
+    line-height: 10px;
+    align-self: flex-end;
+
+    /* text/grey dark */
+    color: rgba(235, 235, 255, 0.25);
+
+    /* Inside auto layout */
+    order: 0;
+}
+
+.separator {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--mini-size);
+    line-height: var(--mini-lh);
+    text-align: center;
+
+    /* text/grey dark */
+    color: rgba(235, 235, 255, 0.25);
+
+    /* Inside auto layout */
+    order: 0;
+    cursor: default;
+}
+
+.message {
+    width: 80%;
+    height: 80%;
+
+    bottom: -100%;
+
+    white-space: pre-line;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--body-size);
+    line-height: var(--body-lh);
+    flex-grow: 5px !important;
+    margin-left: 10px;
+    width: 85%;
+    color: var(--text1);
+    align-self: stretch;
+    word-break: break-word;
+    white-space: normal;
+}
+
+.message_without_avatar {
+    width: 80%;
+    height: 80%;
+
+    bottom: -100%;
+    padding: 0px 23px;
+    white-space: pre-line;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--body-size);
+    line-height: var(--body-lh);
+    flex-grow: 5px !important;
+    margin: 10px;
+    width: 85%;
+    color: var(--text1);
+    white-space: pre-line;
+    align-self: stretch;
+    word-break: break-word;
+    white-space: normal;
+}
+
+.mention_message {
+    color: var(--accent1);
+    width: 80%;
+    height: 80%;
+
+    bottom: -100%;
+
+    white-space: pre-line;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--body-size);
+    line-height: var(--body-lh);
+    flex-grow: 5px !important;
+    margin: 10px;
+    width: 85%;
+    align-self: stretch;
+    word-break: break-word;
+    white-space: normal;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.mention_message_block {
+    margin-left: 6px;
+    width: 80%;
+    height: 80%;
+}
+
+.mention_message_block_without_avatar {
+    margin-left: 30px;
+    width: 80%;
+    height: 80%;
+}
+
+.right_image_box {
+    display: flex;
+    right: 0%;
+    float: left;
+    vertical-align: middle;
+    margin-left: 301px;
+}
+
+.sent_message_body {
+    flex-grow: 5 !important;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0px;
+    height: 100%;
+    width: 100%;
+    height: auto;
+    min-height: 53%;
+    padding: 0px 4px 8px;
+    box-sizing: border-box;
+    order: 4;
+    align-self: stretch;
+    cursor: default;
+}
+
+.sent_message_body_with_mention {
+    flex-grow: 5 !important;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0px;
+
+    height: 100%;
+    width: 100%;
+    height: auto;
+    min-height: 53%;
+    padding: 0px 4px 8px;
+    box-sizing: border-box;
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    background: var(--dark3);
+}
+
+.name {
+    width: 82px;
+    height: 14px;
+    cursor: pointer;
+
+    /* small */
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--body-size);
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    /* accent/secondary */
+    color: var(--accent2);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    margin-left: 10px;
+}
+
+.current_user_name {
+    width: 82px;
+    height: 14px;
+    cursor: pointer;
+
+    /* small */
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--body-size);
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    /* accent/secondary */
+    color: var(--accent1);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 5px;
+}
+
+.message_item {
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+}
+
+.message_item p {
+    word-break: break-word;
+}
+
+.main img,
+.main picture {
+    max-width: 100%;
+}

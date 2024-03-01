@@ -1,0 +1,24 @@
+#https://stackoverflow.com/questions/58065603/netlify-renders-404-on-page-refresh-using-react-and-react-router 
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/ambient-token-list.json" 
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+
+[[headers]]
+  for = "/rings_192.png"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+
+[[edge_functions]]
+  path = "/*"
+  function = "country-block"
+
+[[edge_functions]]
+  path = "/*"
+  function = "country-redirect"
+
